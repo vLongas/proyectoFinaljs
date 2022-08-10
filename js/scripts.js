@@ -1,11 +1,3 @@
-// const { default: Swal } = require("sweetalert2");
-
-
-
-
-
-
-
 //Parte 1 de entrega del proyecto
 const producto1 = { id: 1, producto: 'Remera manga corta', precio: 4550, edicion: 'Verano' };
 const producto2 = { id: 2, producto: 'Buzo frizado', precio: 10700, edicion: 'Invierno' };
