@@ -20,19 +20,19 @@ const producto5 = { id: 5, producto: 'Gorro de lana', precio: 2500, edicion: 'In
 // console.log(ropaInvierno);
 // console.log(ropaVerano);
 
-let totalCompra = prompt('Ingrese un valor:'); //codeado solo para ver si funciona
+// let totalCompra = prompt('Ingrese un valor:'); //codeado solo para ver si funciona
 
-Descuento(totalCompra);
+// Descuento(totalCompra);
 
-function Descuento(totalCompra) {
-    if (totalCompra >= 20000) {
-        totalDesc = totalCompra - (totalCompra * 0.2);
-        Swal.fire('Tu compra supero el monto de 20000 pesos, tenes un 20% de descuento, precio final de: ' + totalDesc);
-    } else {
-        totalDescu = totalCompra - (totalCompra * 0.1);
-        Swal.fire('Tu compra no supero el monto de 20000 pesos, tenes un 10% de descuento, precio final de: ' + totalDescu);
-    }
-}
+// function Descuento(totalCompra) {
+//     if (totalCompra >= 20000) {
+//         totalDesc = totalCompra - (totalCompra * 0.2);
+//         Swal.fire('Tu compra supero el monto de 20000 pesos, tenes un 20% de descuento, precio final de: ' + totalDesc);
+//     } else {
+//         totalDescu = totalCompra - (totalCompra * 0.1);
+//         Swal.fire('Tu compra no supero el monto de 20000 pesos, tenes un 10% de descuento, precio final de: ' + totalDescu);
+//     }
+// }
 
 //Parte dos de entrega del proyecto
 
